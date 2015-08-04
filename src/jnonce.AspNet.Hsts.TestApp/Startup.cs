@@ -57,6 +57,7 @@ namespace WebApplication3
             // Add the following to the request pipeline only in development environment.
             if (env.IsDevelopment())
             {
+                loggerFactory.AddDebug();
                 app.UseBrowserLink();
                 app.UseErrorPage();
             }

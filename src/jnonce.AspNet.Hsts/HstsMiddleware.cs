@@ -49,7 +49,7 @@ namespace jnonce.AspNet.Hsts
 
         private Task WriteHeadersAsync(HttpContext context)
         {
-            _logger.LogInformation("Adding headers");
+            _logger.LogInformation("Adding header for secure request");
             try
             {
                 IHeaderDictionary headers = context.Response.Headers;
