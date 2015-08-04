@@ -3,8 +3,8 @@
   "description": "HTTP Strict Transport Security for asp.net vNext",
   "authors": [ "Justin" ],
   "tags": [ "hsts", "security", "Strict-Transport-Security" ],
-  "projectUrl": "",
-  "licenseUrl": "",
+  "projectUrl": "https://github.com/jnonce/jnonce.AspNet.Hsts",
+  "licenseUrl": "https://github.com/jnonce/jnonce.AspNet.Hsts/blob/master/license.txt",
 
   "dependencies": {
     "Microsoft.AspNet.Http.Abstractions": "1.0.0-beta6",
