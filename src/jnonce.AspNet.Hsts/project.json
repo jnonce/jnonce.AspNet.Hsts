@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0-beta6",
+  "description": "HTTP Strict Transport Security for asp.net vNext",
+  "authors": [ "Justin" ],
+  "tags": [ "hsts", "security", "Strict-Transport-Security" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Microsoft.AspNet.Http.Abstractions": "1.0.0-beta6",
+    "Microsoft.Framework.Logging.Abstractions": "1.0.0-beta6",
+    "Microsoft.Framework.OptionsModel": "1.0.0-beta6",
+    "Microsoft.Framework.DependencyInjection.Abstractions": "1.0.0-beta6"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "mscorlib": "4.0.0.0",
+        "System": "4.0.0.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Runtime": "4.0.20",
+        "System.Text.RegularExpressions": "4.0.10"
+      }
+    }
+  }
+}
+
